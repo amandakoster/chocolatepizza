@@ -11,6 +11,7 @@
 }*/
 ul {
   list-style: none;
+  display: inline-block;
 }
 #top{
   display: inline-block;
@@ -22,6 +23,7 @@ ul {
   display: inline-block;
   float: right;
 }
+
 #social{
   display: inline-block;
   overflow: hidden;
@@ -32,6 +34,63 @@ ul {
   display: inline;
   float: left;
 }
+
+#recipe-name{
+  display: inline-block;
+}
+
+#container {
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#text {
+  z-index: 100;
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 1px;
+}
+
+#print{
+  display: inline-block;
+  float: right;
+}
+
+#print-pic{
+  display: inline;
+  float: left;
+}
+
+#image{
+  background:
+
+}
+
+#headshot{
+  display: inline-block;
+}
+
+#author{
+  display: inline-block;
+  }
+
+#author-info{
+  display: inline;
+  float: left;
+}
+
+#share{
+  display: inline-block;
+  float: right;
+}
+
 #logo {
     position: absolute;
     left: 50%;
