@@ -1,4 +1,38 @@
-.logo {
+/*section{
+  position: absolute;
+  left: 5%;
+  left: calc(40px);
+  width: 90%;
+  width: calc(100%-80px);
+  border: solid black 1px;
+  background-color: yellow;
+  padding: 6px;
+  text-align: center;
+}*/
+ul {
+  list-style: none;
+}
+#top{
+  display: inline-block;
+}
+#company{
+  display: inline-block;
+}
+#menu{
+  display: inline-block;
+  float: right;
+}
+#social{
+  display: inline-block;
+  overflow: hidden;
+  /*float: left;*/
+  /*padding: 0 20px;*/
+}
+#socialLogo{
+  display: inline;
+  float: left;
+}
+#logo {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -7,10 +41,10 @@
     height: 50px;
     width: 50px;
     padding: 0 5px;
-    background: #fff url(http://www.dylanvanheugten.nl/images/logo.png) no-repeat 50% 50%;
+    /*background: #fff url(http://www.dylanvanheugten.nl/images/logo.png) no-repeat 50% 50%;*/
 }
 
-.line {
+#line {
     position: relative;
     overflow: visible;
     height: 1px;
