@@ -1,24 +1,62 @@
-/*section{
-  position: absolute;
-  left: 5%;
-  left: calc(40px);
-  width: 90%;
-  width: calc(100%-80px);
-  border: solid black 1px;
-  background-color: yellow;
-  padding: 6px;
-  text-align: center;
-}*/
+/*Good job! Missing some of the content (checkboxes and half of the ingredients), fonts, margins, and alignment, but overall a good start. It probably would've been easier to set the notepad img as a background to your element holding your ingredients. Keep up the good work!*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header {
+  padding-top: 30px;
+}
+
+body {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 ul {
   list-style: none;
   display: inline-block;
 }
-#top{
+
+.top{
   display: inline-block;
 }
-#company{
+
+.company{
   display: inline-block;
 }
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    height: 50px;
+    width: 50px;
+    padding: 0 5px;
+		font-family: 'Yellowtail';
+		color: red;
+}
+
 #menu{
   display: inline-block;
   float: right;
@@ -39,23 +77,53 @@ ul {
   display: inline-block;
 }
 
+img{
+	width: 100%;
+}
+
 #container {
   height: 400px;
   width: 400px;
   position: relative;
 }
-#image {
-  position: absolute;
-  left: 0;
-  top: 0;
+
+#options label {
+  float: left;
 }
-#text {
+
+#options ul {
+  margin: 0;
+  list-style: none;
+  float: left;
+}
+#options ul input{
+    float:left;
+}
+
+input[type="checkbox"] {
+ margin: 0;
+ border: 5px;
+ background: rgba(255,0,255,1)
+}
+
+#text1 {
   z-index: 100;
   position: absolute;
   font-size: 24px;
   font-weight: bold;
   left: 150px;
-  top: 1px;
+  top: 40px;
+}
+
+#text2 {
+  z-index: 100;
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  left: 500px;
+  top: 40px;
+	float: left;
+
 }
 
 #print{
@@ -84,6 +152,7 @@ ul {
 #author-info{
   display: inline;
   float: left;
+	padding-right: 20px;
 }
 
 #share{
@@ -91,17 +160,7 @@ ul {
   float: right;
 }
 
-#logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -25px;
-    margin-top: -25px;
-    height: 50px;
-    width: 50px;
-    padding: 0 5px;
-    /*background: #fff url(http://www.dylanvanheugten.nl/images/logo.png) no-repeat 50% 50%;*/
-}
+
 
 #line {
     position: relative;
@@ -110,4 +169,8 @@ ul {
     background-color: #ddd;
     border: 1px solid #ddd;
     border-collapse: collapse;
+}
+
+#solid-line {
+	color: gray;
 }
