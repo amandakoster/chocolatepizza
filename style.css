@@ -1,19 +1,6 @@
 /*Good job! Missing some of the content (checkboxes and half of the ingredients), fonts, margins, and alignment, but overall a good start. It probably would've been easier to set the notepad img as a background to your element holding your ingredients. Keep up the good work!*/
 
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,152 +10,150 @@ time, mark, audio, video {
 }
 
 header {
-  padding-top: 30px;
+	padding-top: 30px;
 }
 
 body {
-  margin-left: 150px;
-  margin-right: 150px;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 
 ul {
-  list-style: none;
-  display: inline-block;
+	list-style: none;
+	display: inline-block;
 }
 
-.top{
-  display: inline-block;
+.top {
+	display: inline-block;
 }
 
-.company{
-  display: inline-block;
+.company {
+	display: inline-block;
 }
 
 .logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -25px;
-    margin-top: -25px;
-    height: 50px;
-    width: 50px;
-    padding: 0 5px;
-		font-family: 'Yellowtail';
-		color: red;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -25px;
+	margin-top: -25px;
+	height: 50px;
+	width: 50px;
+	padding: 0 5px;
+	font-family: 'Yellowtail';
+	color: red;
 }
 
-#menu{
-  display: inline-block;
-  float: right;
+#menu {
+	display: inline-block;
+	float: right;
 }
 
-#social{
-  display: inline-block;
-  overflow: hidden;
-  /*float: left;*/
-  /*padding: 0 20px;*/
-}
-#socialLogo{
-  display: inline;
-  float: left;
+#social {
+	display: inline-block;
+	overflow: hidden;
+	/*float: left;*/
+	/*padding: 0 20px;*/
 }
 
-#recipe-name{
-  display: inline-block;
+#socialLogo {
+	display: inline;
+	float: left;
 }
 
-img{
+#recipe-name {
+	display: inline-block;
+}
+
+img {
 	width: 100%;
 }
 
 #container {
-  height: 400px;
-  width: 400px;
-  position: relative;
+	height: 400px;
+	width: 400px;
+	position: relative;
 }
 
 #options label {
-  float: left;
+	float: left;
 }
 
 #options ul {
-  margin: 0;
-  list-style: none;
-  float: left;
+	margin: 0;
+	list-style: none;
+	float: left;
 }
-#options ul input{
-    float:left;
+
+#options ul input {
+	float: left;
 }
 
 input[type="checkbox"] {
- margin: 0;
- border: 5px;
- background: rgba(255,0,255,1)
+	margin: 0;
+	border: 5px;
+	background: rgba(255, 0, 255, 1)
 }
 
 #text1 {
-  z-index: 100;
-  position: absolute;
-  font-size: 24px;
-  font-weight: bold;
-  left: 150px;
-  top: 40px;
+	z-index: 100;
+	position: absolute;
+	font-size: 24px;
+	font-weight: bold;
+	left: 150px;
+	top: 40px;
 }
 
 #text2 {
-  z-index: 100;
-  position: absolute;
-  font-size: 24px;
-  font-weight: bold;
-  left: 500px;
-  top: 40px;
+	z-index: 100;
+	position: absolute;
+	font-size: 24px;
+	font-weight: bold;
+	left: 500px;
+	top: 40px;
 	float: left;
-
 }
 
-#print{
-  display: inline-block;
-  float: right;
+#print {
+	display: inline-block;
+	float: right;
 }
 
-#print-pic{
-  display: inline;
-  float: left;
+#print-pic {
+	display: inline;
+	float: left;
 }
 
-#image{
-  background:
-
+#image {
+	background:
 }
 
-#headshot{
-  display: inline-block;
+#headshot {
+	display: inline-block;
 }
 
-#author{
-  display: inline-block;
-  }
+#author {
+	display: inline-block;
+}
 
-#author-info{
-  display: inline;
-  float: left;
+#author-info {
+	display: inline;
+	float: left;
 	padding-right: 20px;
 }
 
-#share{
-  display: inline-block;
-  float: right;
+#share {
+	display: inline-block;
+	float: right;
 }
 
-
-
 #line {
-    position: relative;
-    overflow: visible;
-    height: 1px;
-    background-color: #ddd;
-    border: 1px solid #ddd;
-    border-collapse: collapse;
+	position: relative;
+	overflow: visible;
+	height: 1px;
+	background-color: #ddd;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
 }
 
 #solid-line {
