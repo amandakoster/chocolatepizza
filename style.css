@@ -36,16 +36,25 @@ ul {
   display: inline-block;
 }
 
-#top{
+.top{
   display: inline-block;
 }
 
-#company{
+.company{
   display: inline-block;
 }
 
-#logo{
-    font-family: 'Yellowtail', cursive;
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    height: 50px;
+    width: 50px;
+    padding: 0 5px;
+		font-family: 'Yellowtail';
+		color: red;
 }
 
 #menu{
@@ -66,6 +75,10 @@ ul {
 
 #recipe-name{
   display: inline-block;
+}
+
+img{
+	width: 100%;
 }
 
 #container {
@@ -92,23 +105,24 @@ input[type="checkbox"] {
  border: 5px;
  background: rgba(255,0,255,1)
 }
-/*#image {
-  position: absolute;
-  left: 0;
-  top: 0;
-}*/
-#text {
+
+#text1 {
   z-index: 100;
   position: absolute;
   font-size: 24px;
   font-weight: bold;
   left: 150px;
-  top: 1px;
-	-webkit-column-width: 100px; /* Chrome, Safari, Opera */
--moz-column-width: 100px; /* Firefox */
-column-width: 100px;
-column-count: 2;
-/*column-gap: 350px;*/
+  top: 40px;
+}
+
+#text2 {
+  z-index: 100;
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  left: 500px;
+  top: 40px;
+	float: left;
 
 }
 
@@ -138,6 +152,7 @@ column-count: 2;
 #author-info{
   display: inline;
   float: left;
+	padding-right: 20px;
 }
 
 #share{
@@ -145,17 +160,7 @@ column-count: 2;
   float: right;
 }
 
-#logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -25px;
-    margin-top: -25px;
-    height: 50px;
-    width: 50px;
-    padding: 0 5px;
-    /*background: #fff url(http://www.dylanvanheugten.nl/images/logo.png) no-repeat 50% 50%;*/
-}
+
 
 #line {
     position: relative;
@@ -164,4 +169,8 @@ column-count: 2;
     background-color: #ddd;
     border: 1px solid #ddd;
     border-collapse: collapse;
+}
+
+#solid-line {
+	color: gray;
 }
