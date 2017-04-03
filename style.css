@@ -21,10 +21,10 @@ header {
 #tagline {
 		display: inline;
 		padding-left: 10px;
+		 font-family: 'PT Sans Narrow', sans-serif;
 }
 #company {
 	font-family: 'Yellowtail';
-	color: red;
 	font-size: 35px;
 	padding-left: 5px;
 }
@@ -42,23 +42,38 @@ header {
 }
 
 #socialLogo-rs {
-	display: inline;
-	float: left;
-	/*padding-bottom: 3px;*/
+display: inline;
+float: left;
+padding-left: 4px;
+/*margin-right: 3px
+margin-top: 5px;*/
 }
 
 hr {
-	margin-top: 40px;
-}
 
-#print-pic {
+}
+#recipe-name {
 	display: inline-block;
 	float: left;
 }
 
+#print {
+display: inline;
+float: right;
+padding-bottom: 10px;
+}
+
+#print-pic {
+	display: inline;
+	float: left;
+	width: 20px;
+	color: #bababa;
+}
+
 #print-word {
-	display:inline-block;
+	display:inline;
 	float: right;
+	color: #bababa;
 }
 
 body {
@@ -81,8 +96,19 @@ ul {
 	float: right;
 }
 
-#recipe-name {
+.recipe-name {
  clear: left;
+ padding-top: 10px;
+}
+
+#recipe-post{
+	 clear: left;
+	 color: #bababa;
+	 font-family: 'PT Sans Narrow', sans-serif;
+}
+#recipe-name {
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
 }
 
 img {
@@ -139,11 +165,6 @@ input[type="checkbox"] {
 	float: left;
 }
 
-
-
-/*#image {
-	background:
-}*/
 
 #headshot {
 	display: inline-block;
