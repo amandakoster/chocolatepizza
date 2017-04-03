@@ -1,6 +1,6 @@
 /*Good job! Missing some of the content (checkboxes and half of the ingredients), fonts, margins, and alignment, but overall a good start. It probably would've been easier to set the notepad img as a background to your element holding your ingredients. Keep up the good work!*/
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, hr, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -11,6 +11,47 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 header {
 	padding-top: 30px;
+}
+
+#top {
+	float:left;
+	display: inline-block;
+	padding-top: 15px;
+}
+
+#company-tag{
+	display: inline;
+	float: left;
+}
+
+#tagline {
+		display: inline;
+}
+#company {
+	font-family: 'Yellowtail';
+	color: red;
+	font-size: 35px;
+}
+
+#social {
+	display: inline-block;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+#socialLogo {
+	display: inline;
+	float: left;
+	padding: 1px;
+}
+
+#socialLogo-rs {
+	display: inline;
+	float: left;
+	/*padding-bottom: 3px;*/
+}
+hr {
+	margin-top: 40px;
 }
 
 body {
@@ -28,42 +69,9 @@ ul {
 	margin-bottom: 30px;
 }
 
-.top {
-	display: inline-block;
-}
-
-.company {
-	display: inline-block;
-}
-
-.logo {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-left: -25px;
-	margin-top: -25px;
-	height: 50px;
-	width: 50px;
-	padding: 0 5px;
-	font-family: 'Yellowtail';
-	color: red;
-}
-
 #menu {
 	display: inline-block;
 	float: right;
-}
-
-#social {
-	display: inline-block;
-	overflow: hidden;
-	/*float: left;*/
-	/*padding: 0 20px;*/
-}
-
-#socialLogo {
-	display: inline;
-	float: left;
 }
 
 #recipe-name {
