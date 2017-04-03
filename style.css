@@ -1,5 +1,3 @@
-/*Good job! Missing some of the content (checkboxes and half of the ingredients), fonts, margins, and alignment, but overall a good start. It probably would've been easier to set the notepad img as a background to your element holding your ingredients. Keep up the good work!*/
-
 html, hr, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -16,21 +14,19 @@ header {
 #top {
 	float:left;
 	display: inline-block;
-	padding-top: 15px;
-}
-
-#company-tag{
-	display: inline;
-	float: left;
+	padding-top: 10px;
+	width: 50px;
 }
 
 #tagline {
 		display: inline;
+		padding-left: 10px;
 }
 #company {
 	font-family: 'Yellowtail';
 	color: red;
 	font-size: 35px;
+	padding-left: 5px;
 }
 
 #social {
@@ -50,8 +46,19 @@ header {
 	float: left;
 	/*padding-bottom: 3px;*/
 }
+
 hr {
 	margin-top: 40px;
+}
+
+#print-pic {
+	display: inline-block;
+	float: left;
+}
+
+#print-word {
+	display:inline-block;
+	float: right;
 }
 
 body {
@@ -75,7 +82,7 @@ ul {
 }
 
 #recipe-name {
-	display: inline-block;
+ clear: left;
 }
 
 img {
@@ -132,19 +139,11 @@ input[type="checkbox"] {
 	float: left;
 }
 
-#print {
-	display: inline-block;
-	float: right;
-}
 
-#print-pic {
-	display: inline;
-	float: left;
-}
 
-#image {
+/*#image {
 	background:
-}
+}*/
 
 #headshot {
 	display: inline-block;
