@@ -1,6 +1,4 @@
-/*Good job! Missing some of the content (checkboxes and half of the ingredients), fonts, margins, and alignment, but overall a good start. It probably would've been easier to set the notepad img as a background to your element holding your ingredients. Keep up the good work!*/
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, hr, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -13,9 +11,83 @@ header {
 	padding-top: 30px;
 }
 
+#top {
+	float: left;
+	display: inline-block;
+	padding-top: 10px;
+	width: 50px;
+}
+
+#tagline {
+	display: inline;
+	padding-left: 10px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#company {
+	font-family: 'Yellowtail';
+	font-size: 35px;
+	padding-left: 5px;
+}
+
+#social {
+	display: inline-block;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+#socialLogo {
+	display: inline;
+	float: left;
+	padding: 1px;
+}
+
+#socialLogo-rs {
+	display: inline;
+	float: left;
+	padding-left: 4px;
+	/*margin-right: 3px
+margin-top: 5px;*/
+}
+
+#recipe-name {
+	display: inline-block;
+	float: left;
+}
+
+#print {
+	display: inline-block;
+	float: right;
+	padding-bottom: 10px;
+}
+
+#print-pic {
+	display: inline;
+	float: left;
+	width: 20px;
+	color: #bababa;
+}
+
+hr {
+	padding: 10px;
+	width: 100%;
+	background: repeating-linear-gradient( 45deg,
+	#000,
+  /*#222 1px,
+  #333 10px,*/
+  #ffffff 1px);
+}
+
+#print-word {
+	display: inline-block;
+	float: right;
+	color: #bababa;
+	position: absolute;
+}
+
 body {
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 170px;
+	margin-right: 170px;
 }
 
 ul {
@@ -23,25 +95,9 @@ ul {
 	display: inline-block;
 }
 
-.top {
-	display: inline-block;
-}
-
-.company {
-	display: inline-block;
-}
-
-.logo {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-left: -25px;
-	margin-top: -25px;
-	height: 50px;
-	width: 50px;
-	padding: 0 5px;
-	font-family: 'Yellowtail';
-	color: red;
+#p-text {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 #menu {
@@ -49,30 +105,36 @@ ul {
 	float: right;
 }
 
-#social {
-	display: inline-block;
-	overflow: hidden;
-	/*float: left;*/
-	/*padding: 0 20px;*/
+.recipe-name {
+	clear: left;
+	padding-top: 20px;
 }
 
-#socialLogo {
-	display: inline;
-	float: left;
+#recipe-post {
+	clear: left;
+	color: #bababa;
+	font-family: 'PT Sans Narrow', sans-serif;
 }
 
 #recipe-name {
-	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
 }
 
 img {
 	width: 100%;
+	margin-bottom: 30px
 }
 
 #container {
-	height: 400px;
-	width: 400px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
 	position: relative;
+	margin-bottom: 10px;
+	font-family: 'Patrick Hand', cursive;
 }
 
 #options label {
@@ -90,42 +152,37 @@ img {
 }
 
 input[type="checkbox"] {
-	margin: 0;
+	margin: 5px;
 	border: 5px;
-	background: rgba(255, 0, 255, 1)
-}
+	/*background: rgba(255, 0, 255, 1)*/
+	padding-right: 5px;
+	font-size: 10px;
 
+}
+#p-text {
+	font-family: 'Patrick Hand', cursive;
+	color: #928c82;
+}
 #text1 {
 	z-index: 100;
 	position: absolute;
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 28px;
 	left: 150px;
 	top: 40px;
+	color: #898378;
+	padding: 8px;
+	margin: 2px;
+		float: left;
 }
 
 #text2 {
 	z-index: 100;
 	position: absolute;
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 28px;
 	left: 500px;
 	top: 40px;
 	float: left;
-}
-
-#print {
-	display: inline-block;
-	float: right;
-}
-
-#print-pic {
-	display: inline;
-	float: left;
-}
-
-#image {
-	background:
+	color: #898378;
 }
 
 #headshot {
