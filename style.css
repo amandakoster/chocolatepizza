@@ -134,6 +134,7 @@ img {
 	overflow: hidden;
 	position: relative;
 	margin-bottom: 10px;
+	font-family: 'Patrick Hand', cursive;
 }
 
 #options label {
@@ -151,28 +152,37 @@ img {
 }
 
 input[type="checkbox"] {
-	margin: 0;
+	margin: 5px;
 	border: 5px;
-	background: rgba(255, 0, 255, 1)
-}
+	/*background: rgba(255, 0, 255, 1)*/
+	padding-right: 5px;
+	font-size: 10px;
 
+}
+#p-text {
+	font-family: 'Patrick Hand', cursive;
+	color: #928c82;
+}
 #text1 {
 	z-index: 100;
 	position: absolute;
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 28px;
 	left: 150px;
 	top: 40px;
+	color: #898378;
+	padding: 8px;
+	margin: 2px;
+		float: left;
 }
 
 #text2 {
 	z-index: 100;
 	position: absolute;
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 28px;
 	left: 500px;
 	top: 40px;
 	float: left;
+	color: #898378;
 }
 
 #headshot {
