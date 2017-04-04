@@ -18,16 +18,21 @@ header {
 	width: 50px;
 }
 
+#company {
+	font-family: 'Yellowtail';
+	font-size: 35px;
+	padding-left: 5px;
+}
+
 #tagline {
 	display: inline;
 	padding-left: 10px;
 	font-family: 'PT Sans Narrow', sans-serif;
 }
 
-#company {
-	font-family: 'Yellowtail';
-	font-size: 35px;
-	padding-left: 5px;
+#menu {
+	display: inline-block;
+	float: right;
 }
 
 #social {
@@ -46,19 +51,23 @@ header {
 	display: inline;
 	float: left;
 	padding-left: 4px;
-	/*margin-right: 3px
-margin-top: 5px;*/
+}
+
+.clearfix {
+	display: inline-block;
 }
 
 #recipe-name {
 	display: inline-block;
 	float: left;
+	margin-top: 40px;
+
 }
 
-#print {
-	display: inline-block;
+#print-stuff {
+	display: inline;
 	float: right;
-	padding-bottom: 10px;
+	position: relative;
 }
 
 #print-pic {
@@ -68,21 +77,21 @@ margin-top: 5px;*/
 	color: #bababa;
 }
 
+#print-word {
+	display: inline;
+	float: right;
+	color: #bababa;
+	/*position: absolute;*/
+}
+
 hr {
 	padding: 10px;
 	width: 100%;
 	background: repeating-linear-gradient( 45deg,
-	#000,
-  /*#222 1px,
-  #333 10px,*/
+	/*#000,*/
+  #222 1px,
+  #333 10px,
   #ffffff 1px);
-}
-
-#print-word {
-	display: inline-block;
-	float: right;
-	color: #bababa;
-	position: absolute;
 }
 
 body {
@@ -100,10 +109,6 @@ ul {
 	margin-bottom: 30px;
 }
 
-#menu {
-	display: inline-block;
-	float: right;
-}
 
 .recipe-name {
 	clear: left;
@@ -137,50 +142,37 @@ img {
 	font-family: 'Patrick Hand', cursive;
 }
 
-#options label {
-	float: left;
-}
-
-#options ul {
-	margin: 0;
-	list-style: none;
-	float: left;
-}
-
-#options ul input {
-	float: left;
-}
-
-input[type="checkbox"] {
-	margin: 5px;
-	border: 5px;
-	/*background: rgba(255, 0, 255, 1)*/
-	padding-right: 5px;
-	font-size: 10px;
-
-}
 #p-text {
-	font-family: 'Patrick Hand', cursive;
+	font-family: serif;
 	color: #928c82;
 }
+
+
+input[type="checkbox"]{
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+	margin: 10px;
+	content: "";
+	color: #898378;
+}
+
 #text1 {
-	z-index: 100;
 	position: absolute;
 	font-size: 28px;
-	left: 150px;
-	top: 40px;
+	left: 50px;
+	top: 45px;
 	color: #898378;
-	padding: 8px;
-	margin: 2px;
-		float: left;
+	padding: 10px;
+	margin-left: 20px;
+	float: left;
 }
 
 #text2 {
-	z-index: 100;
 	position: absolute;
 	font-size: 28px;
-	left: 500px;
-	top: 40px;
+	margin-left: 550px;
+	top: 45px;
 	float: left;
 	color: #898378;
 }
@@ -193,15 +185,30 @@ input[type="checkbox"] {
 	display: inline-block;
 }
 
-#author-info {
-	display: inline;
+#author-photo {
+	display: inline-block;
 	float: left;
 	padding-right: 20px;
 }
 
-#share {
+#author-text {
+	font-family: serif;
+	color: #928c82;
 	display: inline-block;
+}
+
+.button {
 	float: right;
+	display: inline-block;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
 }
 
 #line {
@@ -215,4 +222,9 @@ input[type="checkbox"] {
 
 #solid-line {
 	color: gray;
+}
+
+footer {
+	font-family: serif;
+	color: #928c82;
 }
