@@ -12,17 +12,18 @@ header {
 }
 
 #top {
-	float:left;
+	float: left;
 	display: inline-block;
 	padding-top: 10px;
 	width: 50px;
 }
 
 #tagline {
-		display: inline;
-		padding-left: 10px;
-		 font-family: 'PT Sans Narrow', sans-serif;
+	display: inline;
+	padding-left: 10px;
+	font-family: 'PT Sans Narrow', sans-serif;
 }
+
 #company {
 	font-family: 'Yellowtail';
 	font-size: 35px;
@@ -42,25 +43,22 @@ header {
 }
 
 #socialLogo-rs {
-display: inline;
-float: left;
-padding-left: 4px;
-/*margin-right: 3px
+	display: inline;
+	float: left;
+	padding-left: 4px;
+	/*margin-right: 3px
 margin-top: 5px;*/
 }
 
-hr {
-
-}
 #recipe-name {
 	display: inline-block;
 	float: left;
 }
 
 #print {
-display: inline;
-float: right;
-padding-bottom: 10px;
+	display: inline-block;
+	float: right;
+	padding-bottom: 10px;
 }
 
 #print-pic {
@@ -70,10 +68,21 @@ padding-bottom: 10px;
 	color: #bababa;
 }
 
+hr {
+	padding: 10px;
+	width: 100%;
+	background: repeating-linear-gradient( 45deg,
+	#000,
+  /*#222 1px,
+  #333 10px,*/
+  #ffffff 1px);
+}
+
 #print-word {
-	display:inline;
+	display: inline-block;
 	float: right;
 	color: #bababa;
+	position: absolute;
 }
 
 body {
@@ -86,7 +95,7 @@ ul {
 	display: inline-block;
 }
 
-#p-text{
+#p-text {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -97,15 +106,16 @@ ul {
 }
 
 .recipe-name {
- clear: left;
- padding-top: 10px;
+	clear: left;
+	padding-top: 20px;
 }
 
-#recipe-post{
-	 clear: left;
-	 color: #bababa;
-	 font-family: 'PT Sans Narrow', sans-serif;
+#recipe-post {
+	clear: left;
+	color: #bababa;
+	font-family: 'PT Sans Narrow', sans-serif;
 }
+
 #recipe-name {
 	font-family: 'Oswald', sans-serif;
 	font-size: 40px;
@@ -117,12 +127,12 @@ img {
 }
 
 #container {
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
-  position: relative;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
 	margin-bottom: 10px;
 }
 
@@ -164,7 +174,6 @@ input[type="checkbox"] {
 	top: 40px;
 	float: left;
 }
-
 
 #headshot {
 	display: inline-block;
